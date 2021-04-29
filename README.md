@@ -34,9 +34,9 @@ with amp.scale_loss(loss, optimizer) as scaled_loss:
 
 
 
-demo code
+## demo code
 
-# main.py
+### main.py
 import torch
 import argparse
 import torch.distributed as dist

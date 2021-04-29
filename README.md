@@ -20,7 +20,7 @@ train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=..., sample
 model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[args.local_rank])
 
 
-apex
+4. apex
 
 from apex import amp
 

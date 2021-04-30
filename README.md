@@ -5,6 +5,8 @@ This is a fast document for modifying code into Apex and multiple GPUs for train
 
 Related tutorials:
 https://zhuanlan.zhihu.com/p/86441879
+https://pytorch.org/blog/accelerating-training-on-nvidia-gpus-with-pytorch-automatic-mixed-precision/
+https://zhuanlan.zhihu.com/p/158375055
 
 ### 0. The command for python training
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 main.py
